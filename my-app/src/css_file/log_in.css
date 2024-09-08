@@ -1,0 +1,114 @@
+
+.box-1{
+
+    border: 1px solid;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgba(76, 77, 69, 0.771);
+    padding: 20px;
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    position: relative;
+    top: 15%;
+    left: 35%;
+    border-radius: 20px;
+    /* box-shadow: 10px 2px 14px; */
+}
+
+.box-1 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-1 .button{
+    color: rgba(227, 213, 202, 0.773);
+    background-color: rgba(76, 77, 69, 0);
+    border: none;
+    font-size: 15px;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: rgba(222, 167, 124, 0.805);
+}
+
+.box-1 .h1{
+    color: rgba(227, 213, 202, 0.773);
+    text-align: center;
+}
+
+.box-1 .form{
+    padding: 0px;
+}
+
+.box-1 .form .main-div{
+    text-align: center;
+}
+
+.box-1 .form .main-div .div{
+    font-size: 20px;
+    color: rgba(227, 213, 202, 0.773);
+}
+
+.box-1 .form .main-div .div .input{
+    border-radius: 7px;
+    padding: 10px 10px;
+    background-color:rgba(76, 77, 69, 0.771);
+    border: 1px solid rgba(222, 167, 124, 0.805);
+    opacity: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+}
+
+.box-1 .form .main-div .div .input:after{
+    border-radius: 7px;
+    padding: 10px 10px;
+    background-color:rgba(76, 77, 69, 0.771);
+    opacity: 100%;
+    border: 1px solid rgba(222, 167, 124, 0.805);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+}
+
+.box-1 .form .main-div .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-1 .form .main-div .enter{
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(222, 167, 124, 0.805);
+    padding: 5px 15px;
+    color: white;;
+    background-color: rgba(76, 77, 69, 0.771);
+}
+
+.box-1 .form .main-div .enter:hover{
+    color: rgba(222, 167, 124, 0.805);
+}
+
+.box-1 .form .reset{
+    border-radius: 20px;
+    border: none;
+    margin-top: 1%;
+    margin: 10px;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: white;;
+    background-color:rgba(76, 77, 69, 0.771);
+    border: 1px solid rgba(222, 167, 124, 0.805);
+}
+
+.box-1 .form .reset:hover{
+    color: rgba(222, 167, 124, 0.805);
+}
